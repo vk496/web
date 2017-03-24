@@ -1,67 +1,61 @@
-
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE HTML>
+<!--
+        Aerial by HTML5 UP
+        html5up.net | @ajlkn
+        Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="vk496">
-        <meta name="author" content="Valentín Kivachuk">
-        <link rel="icon" href="favicon.ico">
-
-        <title>Valentín Kivachuk</title>
-
-        <!-- CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-                <script href="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-                <script href="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+        <title>Valent&iacute;n Kivachuk</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     </head>
+    <body class="loading">
+        <div id="wrapper">
+            <div id="bg"></div>
+            <div id="overlay"></div>
+            <div id="main">
 
-    <body>
-        <div class="site-wrapper">
-            <div class="site-wrapper-inner">
-                <div class="cover-container">
-                    <div class="masthead clearfix">
-                        <div class="inner">
-                            <h3 class="masthead-brand">vk496 <img src="logo.png" height="50" /></h3>
-                        </div>
-                    </div>
+                <!-- Header -->
+                <header id="header">
+                    <h1 style="color: #eee">Valent&iacute;n Kivachuk</h1>
+                    <p>Engineer &nbsp;&bull;&nbsp; Curious &nbsp;&bull;&nbsp; Linux Lover</p>
+                    <nav>
+                        <ul>
+                            <li><a href="mailto:vk18496@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                            <li><a href="https://twitter.com/vk496" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+                            <li><a href="https://github.com/vk496" class="icon fa-github" target="_blank"><span class="label" >Github</span></a></li>
+                            <li><a href="https://foro.seguridadwireless.net/index.php?action=profile;u=121515" class="icon fa-wifi"><span class="label">SeguridadWireless</span></a></li>
+                            <li><a href="https://t.me/vk496" class="icon fa-paper-plane"><span class="label">Telegram</span></a></li>
+                        </ul>
+                    </nav>
+                    <p>
+                        <a href="#" onclick="window.open('https://pgp.mit.edu/pks/lookup?op=get&search=0x3327F46D51881A02');"><i class="fa fa-key fa" style="color: yellow"></i></a>
+                    </p>
+                </header>
 
-                    <div class="inner cover social">
-                        <h1 class="cover-heading"><a>Valentín Kivachuk</a></h1>
-                        <p class="lead">
-                            <a href="mailto:vk18496@gmail.com"><i class="fa fa-envelope fa-2x"></i></a>
-                            <a href="http://twitter.com/vk496" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-                            <a href="http://facebook.com/vk496" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
-                            <a href="https://plus.google.com/110430088612084485364" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
-                            <a href="http://telegram.me/vk496" target="_blank"><i class="fa fa-paper-plane fa-2x"></i></a>
-                        </p>
-                        <p class="lead">
-                            <a href="http://github.com/vk496" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-                            <a href="https://foro.seguridadwireless.net/index.php?action=profile;u=121515" target="_blank"><i class="fa fa-wifi fa-2x"></i></a>
-                        </p>
-                        <p class="lead">
-                            <a href="#" onclick="window.open('https://pgp.mit.edu/pks/lookup?op=get&search=0x3327F46D51881A02');"><i class="fa fa-key fa"></i></a>
-                        </p>
-                    </div>
-                </div>
+                <!-- Footer -->
+<!--                <footer id="footer">
+                    <span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+                </footer>-->
+
             </div>
-
         </div>
-
-        <!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
-        <script src="/js/docs.min.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="/js/ie10-viewport-bug-workaround.js"></script>
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script>
+            window.onload = function () {
+                document.body.className = '';
+            }
+            window.ontouchmove = function () {
+                return false;
+            }
+            window.onorientationchange = function () {
+                document.body.scrollTop = 0;
+            }
+        </script>
     </body>
 </html>
